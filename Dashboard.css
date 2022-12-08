@@ -48,3 +48,30 @@ nav {
 nav > ion-icon {
     font-size: 30px;
 }
+
+main {
+  display: grid;
+  grid-template-columns: 10% auto 15%;
+  grid-gap: 10%;
+}
+
+ .News {
+  border: solid 2px black;
+  border-radius: 5px;
+   padding: 5px;
+}
+
+.Projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-gap: 10px;
+}
+
+.Project-items {
+  border: solid 2px black;
+  border-radius: 2px;
+}
+
+.main-part {
+  gap: 5px;
+}

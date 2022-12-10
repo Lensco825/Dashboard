@@ -1,3 +1,5 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins&family=Roboto&display=swap'); 
+
 html, body {
     width: 100%;
     height: 100%;
@@ -7,14 +9,14 @@ ul {
     list-style-type: none;
 }
 
+
 header {
 
     display: flex;
     flex-direction: row;
     gap: 10px;
     justify-content: flex-end;
-
-
+    padding-right: 10%;
 }
 
 p {
@@ -40,19 +42,20 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 3.5rem;
-    justify-content: center;
+    justify-content: top;
     width: 4%;
     height: 100%;
 }
 
 nav > ion-icon {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 main {
   display: grid;
-  grid-template-columns: 10% auto 15%;
+  grid-template-columns: 10% auto 25%;
   grid-gap: 10%;
+  font-family: 'Poppins', sans-serif;
 }
 
  .News {
@@ -74,4 +77,38 @@ main {
 
 .main-part {
   gap: 3.1rem;
+}
+
+h1 {
+  font-size: 45px;
+  align-text: left;
+}
+
+
+.list {
+  padding: 10px;
+  border: solid 2px black;
+  border-radius: 3px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  cursor: pointer;
+}
+
+.list:hover {
+text-decoration: line-through
+}
+
+.taskArea {
+  width: 100%;
+}
+
+.dark {
+  color: #ffff;
+  background-color: #0d1b2a;
+}
+
+.Project-items-dark {
+  border: solid 2px white;
+  border-radius: 5px;
 }

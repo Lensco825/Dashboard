@@ -12,7 +12,7 @@
 <body>
   <header>
     <ion-icon name="logo-github"></ion-icon>
-    <ion-icon name="moon-outline"></ion-icon>
+    <ion-icon name="moon-outline" id="darkMode"></ion-icon>
     <ion-icon name="add-circle"></ion-icon>
     <ion-icon name="person-circle-outline"></ion-icon>
     <p>Lens D</p>
@@ -39,53 +39,66 @@
         <br>
       </section>
       <section class="Projects">
+        <h2>Projects</h2>
         <section class="Project-grid">
         <div class="Project-items">
           <h3>All 3D modeled characters</h3>
           <br>
           <p>We need all of our characters to be made</p>
-          <progress value="50" max="100" style="accent-color: red;">
+          <progress value="90" max="100" style="accent-color: red;">
         </div>
         <div class="Project-items">
           <h3>3D rendering game Engine</h3>
           <br>
           <p>To help us update the game quicker</p>
-          <progress value="50" max="100" style="accent-color: red;">
+          <progress value="85" max="100" style="accent-color: red;">
         </div>
         <div class="Project-items">
           <h3>Website Showcase</h3>
           <br>
           <p>To show others online the game</p>
-          <progress value="50" max="100" style="accent-color: red;">
+          <progress value="75" max="100" style="accent-color: red;">
         </div>
         <div class="Project-items">
           <h3>Map graphics</h3>
           <br>
           <p>Graphing for the landscape of the area and the map itself.</p>
-        <progress value="50" max="100" style="accent-color: red;">
+        <progress value="60" max="100" style="accent-color: blue;">
         </div>
         <div class="Project-items">
           <h3>Voice acting</h3>
           <br>
           <p>We need good actors!</p>
-           <progress value="50" max="100" style="accent-color: red;">
+           <progress value="50" max="100" style="accent-color: #f6bd60;">
         </div>
         <div class="Project-items">
           <h3>Item graphics</h3>
           <br>
           <p>Give items in the game graphics</p>
-           <progress value="50" max="100" style="accent-color: red;">
+           <progress value="35" max="100" style="accent-color: #fb8500;">
         </div>
         <div class="Project-items">
           <h3>Sound Effects</h3>
           <br>
           <p></p>
-           <progress value="50" max="100" style="accent-color: red;">
+           <progress value="30" max="100" style="accent-color: #e63946;">
         </div>
         </section>
       </section>
     </section>
-    <br>
+    <section class="to-do-list">
+        <h2>Tasks</h2>
+      <div>
+        <input type="text" placeholder="Enter a task!" id="input">
+      <ion-icon name="add-outline" id="addBtn"></ion-icon>
+      </div>
+      <br>
+      <div class="taskArea">
+        <ul id="taskList">
+          
+        </ul>
+      </div>
+    </section>
   </main>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vscode-webview-ui-toolkit/1.2.0/toolkit.min.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
